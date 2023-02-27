@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17594C8D29ABEC5B00AB9E02 /* Breathing_FlowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594C8C29ABEC5B00AB9E02 /* Breathing_FlowersApp.swift */; };
+		17594C8F29ABEC5B00AB9E02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594C8E29ABEC5B00AB9E02 /* ContentView.swift */; };
+		17594C9129ABEC5D00AB9E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17594C9029ABEC5D00AB9E02 /* Assets.xcassets */; };
+		17594C9529ABEC5D00AB9E02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17594C9429ABEC5D00AB9E02 /* Preview Assets.xcassets */; };
+		17594C9F29ABEC5D00AB9E02 /* Breathing_FlowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594C9E29ABEC5D00AB9E02 /* Breathing_FlowersTests.swift */; };
+		17594CA929ABEC5E00AB9E02 /* Breathing_FlowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594CA829ABEC5E00AB9E02 /* Breathing_FlowersUITests.swift */; };
+		17594CAB29ABEC5E00AB9E02 /* Breathing_FlowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594CAA29ABEC5E00AB9E02 /* Breathing_FlowersUITestsLaunchTests.swift */; };
+		17594CBA29AC045B00AB9E02 /* PetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594CB929AC045B00AB9E02 /* PetalView.swift */; };
+		17594CBC29AC0BEE00AB9E02 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17594CBB29AC0BEE00AB9E02 /* SnowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17594C9B29ABEC5D00AB9E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17594C8129ABEC5B00AB9E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17594C8829ABEC5B00AB9E02;
+			remoteInfo = "Breathing Flowers";
+		};
+		17594CA529ABEC5E00AB9E02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17594C8129ABEC5B00AB9E02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17594C8829ABEC5B00AB9E02;
+			remoteInfo = "Breathing Flowers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17594C8929ABEC5B00AB9E02 /* Breathing Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breathing Flowers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17594C8C29ABEC5B00AB9E02 /* Breathing_FlowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_FlowersApp.swift; sourceTree = "<group>"; };
+		17594C8E29ABEC5B00AB9E02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17594C9029ABEC5D00AB9E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17594C9229ABEC5D00AB9E02 /* Breathing_Flowers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breathing_Flowers.entitlements; sourceTree = "<group>"; };
+		17594C9429ABEC5D00AB9E02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17594C9A29ABEC5D00AB9E02 /* Breathing FlowersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breathing FlowersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17594C9E29ABEC5D00AB9E02 /* Breathing_FlowersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_FlowersTests.swift; sourceTree = "<group>"; };
+		17594CA429ABEC5E00AB9E02 /* Breathing FlowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breathing FlowersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17594CA829ABEC5E00AB9E02 /* Breathing_FlowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_FlowersUITests.swift; sourceTree = "<group>"; };
+		17594CAA29ABEC5E00AB9E02 /* Breathing_FlowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breathing_FlowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17594CB929AC045B00AB9E02 /* PetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetalView.swift; sourceTree = "<group>"; };
+		17594CBB29AC0BEE00AB9E02 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17594C8629ABEC5B00AB9E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594C9729ABEC5D00AB9E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594CA129ABEC5E00AB9E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17594C8029ABEC5B00AB9E02 = {
+			isa = PBXGroup;
+			children = (
+				17594C8B29ABEC5B00AB9E02 /* Breathing Flowers */,
+				17594C9D29ABEC5D00AB9E02 /* Breathing FlowersTests */,
+				17594CA729ABEC5E00AB9E02 /* Breathing FlowersUITests */,
+				17594C8A29ABEC5B00AB9E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17594C8A29ABEC5B00AB9E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17594C8929ABEC5B00AB9E02 /* Breathing Flowers.app */,
+				17594C9A29ABEC5D00AB9E02 /* Breathing FlowersTests.xctest */,
+				17594CA429ABEC5E00AB9E02 /* Breathing FlowersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17594C8B29ABEC5B00AB9E02 /* Breathing Flowers */ = {
+			isa = PBXGroup;
+			children = (
+				17594C8C29ABEC5B00AB9E02 /* Breathing_FlowersApp.swift */,
+				17594C8E29ABEC5B00AB9E02 /* ContentView.swift */,
+				17594CBB29AC0BEE00AB9E02 /* SnowView.swift */,
+				17594CB929AC045B00AB9E02 /* PetalView.swift */,
+				17594C9029ABEC5D00AB9E02 /* Assets.xcassets */,
+				17594C9229ABEC5D00AB9E02 /* Breathing_Flowers.entitlements */,
+				17594C9329ABEC5D00AB9E02 /* Preview Content */,
+			);
+			path = "Breathing Flowers";
+			sourceTree = "<group>";
+		};
+		17594C9329ABEC5D00AB9E02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17594C9429ABEC5D00AB9E02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17594C9D29ABEC5D00AB9E02 /* Breathing FlowersTests */ = {
+			isa = PBXGroup;
+			children = (
+				17594C9E29ABEC5D00AB9E02 /* Breathing_FlowersTests.swift */,
+			);
+			path = "Breathing FlowersTests";
+			sourceTree = "<group>";
+		};
+		17594CA729ABEC5E00AB9E02 /* Breathing FlowersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17594CA829ABEC5E00AB9E02 /* Breathing_FlowersUITests.swift */,
+				17594CAA29ABEC5E00AB9E02 /* Breathing_FlowersUITestsLaunchTests.swift */,
+			);
+			path = "Breathing FlowersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17594C8829ABEC5B00AB9E02 /* Breathing Flowers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17594CAE29ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing Flowers" */;
+			buildPhases = (
+				17594C8529ABEC5B00AB9E02 /* Sources */,
+				17594C8629ABEC5B00AB9E02 /* Frameworks */,
+				17594C8729ABEC5B00AB9E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breathing Flowers";
+			productName = "Breathing Flowers";
+			productReference = 17594C8929ABEC5B00AB9E02 /* Breathing Flowers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17594C9929ABEC5D00AB9E02 /* Breathing FlowersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17594CB129ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing FlowersTests" */;
+			buildPhases = (
+				17594C9629ABEC5D00AB9E02 /* Sources */,
+				17594C9729ABEC5D00AB9E02 /* Frameworks */,
+				17594C9829ABEC5D00AB9E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17594C9C29ABEC5D00AB9E02 /* PBXTargetDependency */,
+			);
+			name = "Breathing FlowersTests";
+			productName = "Breathing FlowersTests";
+			productReference = 17594C9A29ABEC5D00AB9E02 /* Breathing FlowersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17594CA329ABEC5E00AB9E02 /* Breathing FlowersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17594CB429ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing FlowersUITests" */;
+			buildPhases = (
+				17594CA029ABEC5E00AB9E02 /* Sources */,
+				17594CA129ABEC5E00AB9E02 /* Frameworks */,
+				17594CA229ABEC5E00AB9E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17594CA629ABEC5E00AB9E02 /* PBXTargetDependency */,
+			);
+			name = "Breathing FlowersUITests";
+			productName = "Breathing FlowersUITests";
+			productReference = 17594CA429ABEC5E00AB9E02 /* Breathing FlowersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17594C8129ABEC5B00AB9E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					17594C8829ABEC5B00AB9E02 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					17594C9929ABEC5D00AB9E02 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17594C8829ABEC5B00AB9E02;
+					};
+					17594CA329ABEC5E00AB9E02 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17594C8829ABEC5B00AB9E02;
+					};
+				};
+			};
+			buildConfigurationList = 17594C8429ABEC5B00AB9E02 /* Build configuration list for PBXProject "Breathing Flowers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17594C8029ABEC5B00AB9E02;
+			productRefGroup = 17594C8A29ABEC5B00AB9E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17594C8829ABEC5B00AB9E02 /* Breathing Flowers */,
+				17594C9929ABEC5D00AB9E02 /* Breathing FlowersTests */,
+				17594CA329ABEC5E00AB9E02 /* Breathing FlowersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17594C8729ABEC5B00AB9E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17594C9529ABEC5D00AB9E02 /* Preview Assets.xcassets in Resources */,
+				17594C9129ABEC5D00AB9E02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594C9829ABEC5D00AB9E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594CA229ABEC5E00AB9E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17594C8529ABEC5B00AB9E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17594C8F29ABEC5B00AB9E02 /* ContentView.swift in Sources */,
+				17594CBA29AC045B00AB9E02 /* PetalView.swift in Sources */,
+				17594C8D29ABEC5B00AB9E02 /* Breathing_FlowersApp.swift in Sources */,
+				17594CBC29AC0BEE00AB9E02 /* SnowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594C9629ABEC5D00AB9E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17594C9F29ABEC5D00AB9E02 /* Breathing_FlowersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17594CA029ABEC5E00AB9E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17594CAB29ABEC5E00AB9E02 /* Breathing_FlowersUITestsLaunchTests.swift in Sources */,
+				17594CA929ABEC5E00AB9E02 /* Breathing_FlowersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17594C9C29ABEC5D00AB9E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17594C8829ABEC5B00AB9E02 /* Breathing Flowers */;
+			targetProxy = 17594C9B29ABEC5D00AB9E02 /* PBXContainerItemProxy */;
+		};
+		17594CA629ABEC5E00AB9E02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17594C8829ABEC5B00AB9E02 /* Breathing Flowers */;
+			targetProxy = 17594CA529ABEC5E00AB9E02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17594CAC29ABEC5E00AB9E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17594CAD29ABEC5E00AB9E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17594CAF29ABEC5E00AB9E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Breathing Flowers/Breathing_Flowers.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathing Flowers/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-Flowers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17594CB029ABEC5E00AB9E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Breathing Flowers/Breathing_Flowers.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breathing Flowers/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-Flowers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17594CB229ABEC5E00AB9E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-FlowersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breathing Flowers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breathing Flowers";
+			};
+			name = Debug;
+		};
+		17594CB329ABEC5E00AB9E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-FlowersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breathing Flowers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breathing Flowers";
+			};
+			name = Release;
+		};
+		17594CB529ABEC5E00AB9E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-FlowersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breathing Flowers";
+			};
+			name = Debug;
+		};
+		17594CB629ABEC5E00AB9E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Breathing-FlowersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breathing Flowers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17594C8429ABEC5B00AB9E02 /* Build configuration list for PBXProject "Breathing Flowers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17594CAC29ABEC5E00AB9E02 /* Debug */,
+				17594CAD29ABEC5E00AB9E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17594CAE29ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing Flowers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17594CAF29ABEC5E00AB9E02 /* Debug */,
+				17594CB029ABEC5E00AB9E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17594CB129ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing FlowersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17594CB229ABEC5E00AB9E02 /* Debug */,
+				17594CB329ABEC5E00AB9E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17594CB429ABEC5E00AB9E02 /* Build configuration list for PBXNativeTarget "Breathing FlowersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17594CB529ABEC5E00AB9E02 /* Debug */,
+				17594CB629ABEC5E00AB9E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17594C8129ABEC5B00AB9E02 /* Project object */;
+}
